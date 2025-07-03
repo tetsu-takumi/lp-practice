@@ -23,7 +23,7 @@ header{
 .keyvisual{
     padding-top: 400px;
     padding-bottom: 400px;
-    background-image: url("../keyvisual.jpg");
+    background-image: url("../images/keyvisual/keyvisual.jpg");
     background-size:cover;
 }
 .center{
