@@ -320,7 +320,7 @@ nav.sns .inner a i.fab{
 }
 .scroll {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(0);
 }
 .scroll.display {
   opacity: 1;
