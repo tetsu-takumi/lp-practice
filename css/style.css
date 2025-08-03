@@ -90,7 +90,7 @@ header{
   width: 300px;
   border: 5px solid #777;
   border-radius: 10px;
-  opacity: 0.7;
+
   transition: 0.3s;
 }
 .myskills a{
@@ -317,4 +317,26 @@ nav.sns .inner a i.fab{
     padding-right: 15px;
     width: 100%;
 }
+}
+.scroll {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.scroll.display {
+  opacity: 1;
+  transform: translateY(0);
+}
+/*アニメーション追加*/
+section.skills .myskills .display {
+    animation: fadeUp 1s forwards;
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
