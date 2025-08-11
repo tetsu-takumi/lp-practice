@@ -1,3 +1,4 @@
+/*scroll*/
 document.addEventListener('DOMContentLoaded',() => {
     const scrollImg = new IntersectionObserver((inImages) => {
         inImages.forEach((inImage) => {
@@ -14,3 +15,7 @@ document.addEventListener('DOMContentLoaded',() => {
             scrollImg.observe(img);
         });
     });
+
+    /*swiper*/
+
+    
