@@ -33,6 +33,13 @@
               </div>
             </div>
           </section>
+          <section class="keyvisual swiper-slide">
+            <div class="inner">
+              <div class="center">
+                <h1>WEB PRODUCTION COMPANY</h1>
+                <h3>DIRECTION,CONTENT MARKETING</h3>
+              </div>
+            </div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-prev"></div>
@@ -43,7 +50,7 @@
           <div class="newscontents ">
             <img class="fukidashi" src="../images/news/news.png" alt="news">
             <div class="newstext center">
-              <h3 class="title">NEWS</h3>
+              <h3 class="title" id="typing">NEWS</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -151,13 +158,15 @@
       const swiper = new Swiper (".swiper", {
         pagination:{
             el: ".swiper-pagination",
+            clickable: true,
         },
         navigation:{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
-            clickable: true,
+            
         },
       });
     </script>
+    
   </body> 
 </html>

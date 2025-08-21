@@ -326,7 +326,7 @@ nav.sns .inner a i.fab{
   opacity: 1;
   transform: translateY(0px);
 }
-/*アニメーション追加*/
+/*scroll*/
 section.skills .myskills .display {
     animation: fadeUp 1s forwards;
 }
@@ -338,5 +338,19 @@ section.skills .myskills .display {
   50% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+/*typing*/
+#typing {
+  display: inline-block;
+  border-right: 2px solid #333;
+  padding-right: 5px;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
 }
